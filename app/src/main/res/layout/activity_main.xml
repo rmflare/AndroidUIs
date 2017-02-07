@@ -10,14 +10,45 @@
     android:background="#78ab78">
 
     <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
+        android:text="@string/linear_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button" />
+        android:drawableTop="@drawable/ic_launcher"
+        android:id="@+id/btnLinearLayout" />
 
     <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
+        android:text="@string/relative_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2" />
+        android:id="@+id/btnRelativeLayout" />
+
+    <Button
+        android:text="@string/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTableLayout" />
+
+    <Button
+        android:text="@string/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFrameLayout" />
+
+    <Button
+        android:text="@string/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnListView" />
+
+    <Button
+        android:text="@string/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGridView" />
+
+    <Button
+        android:text="@string/pickers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPicker" />
 </LinearLayout>
